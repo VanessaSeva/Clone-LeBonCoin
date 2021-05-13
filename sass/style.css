@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif, Arial;
+}
+
+.container {
+  position: absolute;
+  width: 980px;
+  height: 900px;
+  border: 2px solid black;
+  left: 25%;
+  width: 50%;
+  margin-top: 70px;
+  z-index: 10;
+}
+
+.form {
+  margin-top: 50px;
+  background: #FFF;
+  max-width: 900px;
+  padding: 2rem;
+  border-radius: 4px;
+  box-shadow: 0 -1px 4px 0 rgba(26, 26, 26, 0.08), 0 4px 8px 0 rgba(26, 26, 26, 0.12);
+  margin-left: 25px;
+}
+
+.checkbox {
+  display: inline-block;
+}
+
+.wrapper {
+  width: 980px;
+  height: 70px;
+  margin: auto;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  height: 70px;
+  box-shadow: 0 -1px 4px 0 rgba(26, 26, 26, 0.08), 0 4px 8px 0 rgba(26, 26, 26, 0.12);
+  border: 1px solid grey;
+  color: black;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 15px;
+}
+
+.searchIcon {
+  width: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.plus {
+  border: 1px solid white;
+}
+
+.research {
+  display: inline-block;
+  border-bottom: 3px solid #F66E15;
+}
+
+.button {
+  background: #ff6e14;
+  color: white;
+  border: none;
+  font-size: 14px;
+  height: 1.8rem;
+  border-radius: 4px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.nav {
+  display: inline-block;
+  float: right;
+  margin-top: 15px;
+}
+
+.item {
+  display: inline-block;
+  text-align: center;
+}
+
+.iconRecherches, .iconConnect,
+.iconMessage, .iconFav {
+  width: 25px;
+  display: block;
+  margin: auto;
+}
+
+.iconBurger {
+  display: none;
+}
+
+.header-top {
+  height: 7rem;
+  background: #F66E15;
+  border-radius: 0 0 50% 50%/0 0 100% 100%;
+}
+
+.iconBurger {
+  display: none;
+}
+
+@media screen and (max-width: 980px) {
+  .iconBurger {
+    display: block;
+  }
+
+  .button {
+    display: none;
+  }
+
+  .searchIcon, .searchIcon {
+    display: none;
+  }
+
+  .nav {
+    position: absolute;
+    width: 180px;
+    margin: -100px 0 0 -140px;
+    margin-top: 50px;
+    padding: 50px;
+    padding-top: 100px;
+    background: #FFF;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
