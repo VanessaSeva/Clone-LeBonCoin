@@ -9,7 +9,6 @@
   position: absolute;
   width: 980px;
   height: 900px;
-  border: 2px solid black;
   left: 25%;
   width: 50%;
   margin-top: 70px;
@@ -135,13 +134,25 @@ header {
 }
 
 .dropbtn {
+  display: inline-block;
   background-color: #F4F6F7;
   color: black;
-  padding: 10px;
-  font-size: 16px;
-  width: 150px;
-  border: none;
+  padding: 7.5px;
+  width: 215px;
   cursor: pointer;
+}
+
+.bullet {
+  vertical-align: middle;
+}
+
+.chevron {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  float: right;
+  color: grey;
+  margin-top: -5px;
 }
 
 .dropdown-content a:hover {
@@ -161,19 +172,19 @@ header {
 }
 
 .inputSearch {
-  width: 45%;
+  width: 355px;
   padding: 12px 20px;
   margin: 6px 0;
-  border: 1px solid #ccc;
   box-sizing: border-box;
+  border: none;
   background-color: #F4F6F7;
 }
 
 .inputSelect {
-  width: 35%;
+  width: 250px;
   padding: 12px 20px;
   margin: 6px 0;
-  border: 1px solid #ccc;
+  border: none;
   box-sizing: border-box;
   background-color: #F4F6F7;
 }
@@ -248,6 +259,44 @@ input:checked + .slider:before {
 .saveSearch {
   color: #2196F3;
   margin-left: 275px;
+}
+
+.buttonSearch {
+  position: absolute;
+  background: #4183D7;
+  color: white;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.icon1 {
+  position: relative;
+  display: inline-block;
+}
+
+.icon1 > img {
+  position: absolute;
+  top: 12px;
+  left: 15px;
+}
+
+.icon1 > input {
+  padding-left: 40px;
+}
+
+.icon2 {
+  position: relative;
+  display: inline-block;
+}
+
+.icon2 > img {
+  position: absolute;
+  top: 12px;
+  left: 15px;
+}
+
+.icon2 > input {
+  padding-left: 40px;
 }
 
 /**************RESPONSIVE*************/
