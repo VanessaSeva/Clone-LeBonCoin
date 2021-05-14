@@ -100,15 +100,18 @@ header {
 }
 
 .header-top {
-  background-color: #F66E15;
+  background-color: #ff6e14;
   z-index: -1;
   top: 70px;
   left: 0;
   right: 0;
   position: absolute;
-  height: 7rem;
-  background: #F66E15;
+  height: 70px;
+}
+
+.header-top-round {
   border-radius: 0 0 50% 50%/0 0 100% 100%;
+  top: 140px;
 }
 
 .iconBurger {
@@ -270,8 +273,8 @@ input:checked + .slider:before {
   color: white;
   font-size: 1rem;
   padding: 10px;
-  top: 25%;
-  left: 35%;
+  top: 27%;
+  left: 42%;
 }
 
 .icon1 {
