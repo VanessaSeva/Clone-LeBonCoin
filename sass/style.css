@@ -173,6 +173,20 @@ header {
   background-color: #F4F6F7;
 }
 
+.inputSelect {
+  position: absolute;
+  left: 48%;
+  top: 12%;
+  width: 45%;
+  padding: 12px 20px;
+  margin: 6px 0;
+  margin-left: 15px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: #F4F6F7;
+}
+
 /**************RESPONSIVE*************/
 @media screen and (max-width: 980px) {
   .iconBurger {
