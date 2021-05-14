@@ -13,7 +13,7 @@
 }
 
 .form {
-  margin-top: 50px;
+  margin-top: 100px;
   background: #FFF;
   max-width: 900px;
   padding: 2rem;
@@ -273,7 +273,7 @@ input:checked + .slider:before {
   color: white;
   font-size: 1rem;
   padding: 10px;
-  top: 27%;
+  top: 30%;
   left: 42%;
 }
 
