@@ -6,13 +6,10 @@
 }
 
 .container {
-  position: absolute;
   width: 980px;
   height: 900px;
-  left: 25%;
-  width: 50%;
+  margin: auto;
   margin-top: 70px;
-  z-index: 10;
 }
 
 .form {
@@ -40,11 +37,11 @@ header {
   top: 0;
   height: 70px;
   box-shadow: 0 -1px 4px 0 rgba(26, 26, 26, 0.08), 0 4px 8px 0 rgba(26, 26, 26, 0.12);
-  border: 1px solid grey;
   color: black;
   width: 100%;
   z-index: 10;
   position: fixed;
+  background: white;
 }
 
 .logo {
@@ -103,6 +100,12 @@ header {
 }
 
 .header-top {
+  background-color: #F66E15;
+  z-index: -1;
+  top: 70px;
+  left: 0;
+  right: 0;
+  position: absolute;
   height: 7rem;
   background: #F66E15;
   border-radius: 0 0 50% 50%/0 0 100% 100%;
@@ -137,7 +140,7 @@ header {
   display: inline-block;
   background-color: #F4F6F7;
   color: black;
-  padding: 7.5px;
+  padding: 7px;
   width: 215px;
   cursor: pointer;
 }
@@ -258,7 +261,7 @@ input:checked + .slider:before {
 
 .saveSearch {
   color: #2196F3;
-  margin-left: 275px;
+  margin-left: 195px;
 }
 
 .buttonSearch {
@@ -267,6 +270,8 @@ input:checked + .slider:before {
   color: white;
   font-size: 1rem;
   padding: 10px;
+  top: 25%;
+  left: 35%;
 }
 
 .icon1 {
