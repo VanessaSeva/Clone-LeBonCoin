@@ -337,14 +337,18 @@ input:checked + .slider:before {
   border-radius: 5px;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 360px 485px;
-  grid-template-rows: 190px 200px 200px 200px 200px 200px 200px;
-  gap: 10px 0;
+.titleCard {
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.detailsCard {
+  float: right;
+  margin-right: 300px;
   border: 1px solid #ccc;
-  border-radius: 10px;
-  grid-template-areas: ". ." ". ." ". ." ". ." ". ." ". ." ". .";
+  height: 160px;
+  width: 440px;
+  border-radius: 0 10px 10px 0;
 }
 
 /**************RESPONSIVE*************/
