@@ -12,7 +12,6 @@ $blue: #4183D7;
     height: 900px;
     margin: auto;
     margin-top: 70px;
- 
 }
 .form {
   margin-top: 100px;
@@ -282,6 +281,31 @@ input:checked + .slider:before {
 .icon2 > input {
   padding-left: 40px;
 }
+.checklist > p { display: inline-block;
+  margin-top: 55px;
+  
+  
+}
+.annonces {
+  margin-top: 35px;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+.lineChecked {
+  padding-left: 15px;
+  padding-right: 10px;
+}
+.highlight{
+  color: $orange;
+}
+.checkboxInline {
+  color: $orange;
+  margin-left: 15px;
+ 
+}
+
+
+
 /**************RESPONSIVE*************/ // en cours
 @media screen and (max-width: 980px) {
     .iconBurger {
