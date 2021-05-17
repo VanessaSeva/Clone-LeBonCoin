@@ -314,7 +314,6 @@ input:checked + .slider:before {
 
 .annonces {
   margin-top: 35px;
-  font-weight: 600;
   font-size: 1.6rem;
 }
 
@@ -330,6 +329,22 @@ input:checked + .slider:before {
 .checkboxInline {
   color: #F66E15;
   margin-left: 15px;
+}
+
+.tri {
+  border: 1px solid #ccc;
+  background: #FFF;
+  border-radius: 5px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 360px 485px;
+  grid-template-rows: 190px 200px 200px 200px 200px 200px 200px;
+  gap: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  grid-template-areas: ". ." ". ." ". ." ". ." ". ." ". ." ". .";
 }
 
 /**************RESPONSIVE*************/
