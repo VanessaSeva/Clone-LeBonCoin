@@ -10,7 +10,7 @@ $grey: #8191a0;
 
 .container {
     width: 980px;
-    height: 900px;
+    height: 1000px;
     margin: auto;
     margin-top: 70px;
 }
@@ -318,14 +318,73 @@ input:checked + .slider:before {
   
   
 }
-.detailsCard {
+.details {
   float: right;
-  margin-right: 300px;
   border: 1px solid #ccc;
   height: 160px;
-  width: 440px;  
+  width: 375px;  
   border-radius: 0 10px 10px 0;
+  
 }
+.detailsAside {
+  
+  border: 1px solid #ccc;
+  height: 160px;
+  width: 240px;  
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 5px;
+}
+.detailsCard, h3, p {
+  margin-left: 1rem;
+  
+}
+.detailsBottom {
+  margin-top: 20px;
+}
+section {
+  float: left;
+  width: 63%;
+}
+
+aside {
+  float: right;
+  width: 30%;
+}
+.cars {
+  margin-top: 45px;
+}
+.buttonSearchBottom {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 620px;
+  height: 40px;
+  background: $blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  margin-left: 30px;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.pagination a.active {
+  background-color: $orange;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
 
 /**************RESPONSIVE*************/ // en cours
 @media screen and (max-width: 980px) {
