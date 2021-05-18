@@ -293,6 +293,7 @@ input:checked + .slider:before {
 .annonces {
   margin-top: 35px;
   font-size: 1.6rem;
+  margin-bottom: 15px;
 }
 .lineChecked {
   padding-left: 15px;
@@ -332,7 +333,7 @@ input:checked + .slider:before {
   height: 160px;
   width: 240px;  
   border-radius: 0 0 10px 10px;
-  margin-bottom: 5px;
+  
 }
 .detailsCard, h3, p {
   margin-left: 1rem;
