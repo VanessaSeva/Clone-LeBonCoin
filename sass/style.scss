@@ -345,10 +345,14 @@ section {
   float: left;
   width: 63%;
 }
-
+.picAside {
+  margin-top: 10px;
+  border-radius: 10px 0px 0px 0px;
+}
 aside {
   float: right;
   width: 30%;
+  
 }
 .cars {
   margin-top: 45px;
@@ -405,12 +409,15 @@ aside {
      
     }
     .button, .wrapper, .checkbox, .header-top,
-    .header-top-round, .form {
+    .header-top-round, .form, .buttonSearch {
       display: none;
     }
 
     .searchIcon, .searchIcon {
       display: none;
+    }
+    aside {
+      float: left;
     }
     
 }
