@@ -385,33 +385,32 @@ aside {
 
 .pagination a:hover:not(.active) {background-color: #ddd;}
 
-
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 4px;
+  row-gap: 15px;
+  margin-top: 15px;
+  width: 1100px;
+  background: #F4F6F7;
+}
+.footerList li {
+  display: inline-block;
+  list-style-type: none;
+}
 /**************RESPONSIVE*************/ // en cours
 @media screen and (max-width: 980px) {
     .iconBurger {
       display: block;
      
     }
-    .button {
+    .button, .wrapper, .checkbox, .header-top,
+    .header-top-round, .form {
       display: none;
     }
 
     .searchIcon, .searchIcon {
       display: none;
     }
-    .nav {
-      position: absolute;
-      width: 180px;
-      margin: -100px 0 0 -140px;
-      margin-top: 50px;
-      padding: 50px;
-      padding-top: 100px;
-      background: #FFF;
-      list-style-type: none;
-      -webkit-font-smoothing: antialiased;
-      /* to stop flickering of text in safari */
-      transform-origin: 0% 0%;
-      transform: translate(-100%, 0);
-      transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-    }
+    
 }
